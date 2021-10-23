@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dad81d35b958004e9c42e19b6d37f02, type: 3}
+  m_Name: SpecialMaster
+  m_EditorClassIdentifier: 
+  SpecialList:
+  - id: 144
+    pack: "\u30D9\u30FC\u30B7\u30C3\u30AF"
+    name: "\u9244\u58C1\u306E\u69CB\u3048"
+    color: "\u9EC4"
+    rare: 
+    stock: 3
+    skillName: 
+    skillDetail: "\u3010\u5473\u65B9\u30E6\u30CB\u30C3\u30C8\u3059\u3079\u3066\u3011\u3053\u306E\u30BF\u30FC\u30F3DEF+20"
+    effect: '{"cutin":"","enemy":"","player":""}'
+    background: 
+    flavor: "\u300C\u3053\u3053\u304C\u3075\u3093\u3070\u308A\u3069\u3053\u308D\u305E\uFF01\u300D"
+    itemId: o1
+    illust: "(\u30A2\u30BB\u30C3\u30C8)"
+  - id: 026
+    pack: "\u30D9\u30FC\u30B7\u30C3\u30AF"
+    name: "\u660E\u65E5\u3078\u306E\u7948\u308A"
+    color: "\u9EC4"
+    rare: 
+    stock: 2
+    skillName: 
+    skillDetail: "\u3010\u5473\u65B9\u30E6\u30CB\u30C3\u30C8\u3059\u3079\u3066\u3011HP\u5B8C\u5168\u56DE\u5FA9"
+    effect: '{"cutin":"","enemy":"","player":""}'
+    background: 
+    flavor: "\u300C\u307F\u306A\u3055\u3093\u304C\u7121\u4E8B\u3067\u3042\u308A\u307E\u3059\u3088\u3046\u306B\u300D"
+    itemId: o2
+    illust: "(\u30A2\u30BB\u30C3\u30C8)"
+  - id: 029
+    pack: "\u30D9\u30FC\u30B7\u30C3\u30AF"
+    name: "\u738B\u306E\u5A01\u5149"
+    color: "\u8D64"
+    rare: 
+    stock: 3
+    skillName: 
+    skillDetail: "\u3010\u5473\u65B9\u30E6\u30CB\u30C3\u30C8\u3059\u3079\u3066\u3011\u3053\u306E\u30BF\u30FC\u30F3ATK+30"
+    effect: '{"cutin":"","enemy":"","player":""}'
+    background: 
+    flavor: "\u300C\u4ECA\u3053\u305D\u308F\u304C\u5A01\u5149\u3092\u793A\u3059\u3068\u304D\uFF01\u300D"
+    itemId: o3
+    illust: "(\u30A2\u30BB\u30C3\u30C8)"
+  - id: 130
+    pack: "\u30D9\u30FC\u30B7\u30C3\u30AF"
+    name: "\u65E9\u6253\u3061"
+    color: "\u8D64"
+    rare: 
+    stock: 3
+    skillName: 
+    skillDetail: "\u3010\u6575\u30E6\u30CB\u30C3\u30C8\u9078\u629E\u30FB1\u4F53\u301150\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B"
+    effect: '{"cutin":"","enemy":"","player":""}'
+    background: 
+    flavor: "\u300C\u5148\u306B\u4ED5\u7559\u3081\u305F\u307B\u3046\u304C\u52DD\u3061\u3088\u300D"
+    itemId: o4
+    illust: "(\u30A2\u30BB\u30C3\u30C8)"
+  - id: 110
+    pack: "\u30D9\u30FC\u30B7\u30C3\u30AF"
+    name: "\u795E\u901F"
+    color: "\u9752"
+    rare: 
+    stock: 3
+    skillName: 
+    skillDetail: "\u3010\u5473\u65B9\u30E6\u30CB\u30C3\u30C8\u3059\u3079\u3066\u3011\u3053\u306E\u30BF\u30FC\u30F3AGI+4"
+    effect: '{"cutin":"","enemy":"","player":""}'
+    background: 
+    flavor: "\u300C\u6211\u3089\u795E\u901F\u306E\u6226\u8853\u306B\u8FFD\u3044\u4ED8\u3051\u308B\u304B\uFF01\u300D"
+    itemId: o5
+    illust: "(\u30A2\u30BB\u30C3\u30C8)"
+  - id: 053
+    pack: "\u30D9\u30FC\u30B7\u30C3\u30AF"
+    name: "\u7981\u65AD\u306E\u66F8"
+    color: "\u9752"
+    rare: 
+    stock: 5
+    skillName: 
+    skillDetail: "\u3010\u6575\u30E6\u30CB\u30C3\u30C8\u3059\u3079\u3066\u3011\u884C\u52D5\u3092\u7D42\u4E86\u3059\u308B"
+    effect: '{"cutin":"","enemy":"","player":""}'
+    background: 
+    flavor: "\u300C\u3053\u306E\u672C\u3092\u958B\u304F\u3068\u304D\u304C\u304D\u307E\u3057\u305F\u304B\u2026\u300D"
+    itemId: o6
+    illust: "(\u30A2\u30BB\u30C3\u30C8)"
+  - id: 176
+    pack: "\u30D9\u30FC\u30B7\u30C3\u30AF"
+    name: "\u81EA\u7531\u81EA\u5728"
+    color: "\u9ED2"
+    rare: 
+    stock: 3
+    skillName: 
+    skillDetail: "\u3010\u5473\u65B9\u30E6\u30CB\u30C3\u30C8\u3059\u3079\u3066\u3011\u3053\u306E\u30BF\u30FC\u30F3ATK+10
+      AGI+1 RNG+1"
+    effect: '{"cutin":"","enemy":"","player":""}'
+    background: 
+    flavor: "\u300C\u3069\u3093\u306A\u6226\u3044\u3082\u81EA\u7531\u81EA\u5728\u306B\u3057\u3066\u307F\u305B\u3088\u3046\u300D"
+    itemId: o7
+    illust: "(\u30A2\u30BB\u30C3\u30C8)"
+  - id: 140
+    pack: "\u30D9\u30FC\u30B7\u30C3\u30AF"
+    name: "\u6B7B\u8005\u8607\u751F"
+    color: "\u9ED2"
+    rare: 
+    stock: 4
+    skillName: 
+    skillDetail: "\u3010\u81EA\u5206\u3011\u5893\u5730\u304B\u3089\u30AB\u30FC\u30C9\u30923\u679A\u30E9\u30F3\u30C0\u30E0\u3067\u30C7\u30C3\u30AD\u306B\u623B\u3059"
+    effect: '{"cutin":"","enemy":"","player":""}'
+    background: 
+    flavor: "\u300C\u307B\u3089\u3001\u5BDD\u3066\u306A\u3044\u3067\u3002\u6226\u3044\u306F\u3053\u308C\u304B\u3089\u3088\u300D"
+    itemId: o8
+    illust: "(\u30A2\u30BB\u30C3\u30C8)"
+  - id: 092
+    pack: "\u30D9\u30FC\u30B7\u30C3\u30AF"
+    name: "\u5E73\u548C\u306E\u6B4C"
+    color: "\u7121"
+    rare: 
+    stock: 2
+    skillName: 
+    skillDetail: "\u3010\u81EA\u5206\u3011\u5C5E\u6027\u50240\u306E\u5C5E\u6027\u5024\u30921\u306B\u3059\u308B"
+    effect: '{"cutin":"","enemy":"","player":""}'
+    background: 
+    flavor: "\u300C\u3059\u3079\u3066\u306E\u3082\u306E\u3068\u5206\u304B\u308A\u5408\u3048\u305F\u3089\u3001\u305D\u308C\u306F\u7D20\u6674\u3089\u3057\u3044\u3053\u3068\u3060\u306A\u3063\u3066\u300D"
+    itemId: o9
+    illust: "(\u30A2\u30BB\u30C3\u30C8)"
+  - id: 047
+    pack: "\u30D9\u30FC\u30B7\u30C3\u30AF"
+    name: "\u672A\u77E5\u3078\u306E\u5192\u967A"
+    color: "\u7121"
+    rare: 
+    stock: 4
+    skillName: 
+    skillDetail: "\u3010\u81EA\u5206\u3011\u30DE\u30CA\u30923\u5897\u3084\u3059"
+    effect: '{"cutin":"","enemy":"","player":""}'
+    background: 
+    flavor: "\u300C\u307E\u3060\u3053\u3093\u306A\u3082\u306E\u304C\u7720\u3063\u3066\u5C45\u3063\u305F\u304B\uFF01\u300D"
+    itemId: o10
+    illust: "(\u30A2\u30BB\u30C3\u30C8)"
